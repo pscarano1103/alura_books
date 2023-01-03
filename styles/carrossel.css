@@ -73,7 +73,7 @@
 
 .botoes__ancora {
   background-color: var(--laranja);
-  padding: 1em 2.2em;
+  padding: 1em 2.26em;
   color: var(--branco);
   font-weight: 700;
   text-decoration: none;
@@ -81,4 +81,30 @@
 
 .descricao__avaliacao {
   margin: 0.5em 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .carrossel__titulo {
+    font-size: 26px;
+  }
+
+  .swiper-pagination {
+    margin: 2em 0 3em 0;
+  }
+
+  .swiper {
+    width: 65%;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+    top: 60%;
+    color: var(--azul);
+  }
+
+  .card {
+    width: 45%;
+    margin: 3.7em auto;
+  }
 }
