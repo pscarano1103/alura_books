@@ -135,6 +135,7 @@
 
   .lista-menu__item:hover > .lista-menu__link {
     -webkit-text-fill-color: var(--branco);
+    font-weight: 700;
     text-decoration: none;
   }
 }
